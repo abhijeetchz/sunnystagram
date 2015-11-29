@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFA37941C0BAE9900CEFE7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA37931C0BAE9900CEFE7B /* AppDelegate.swift */; };
+		BFFA37961C0BAE9900CEFE7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA37951C0BAE9900CEFE7B /* ViewController.swift */; };
+		BFFA37991C0BAE9900CEFE7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFA37971C0BAE9900CEFE7B /* Main.storyboard */; };
+		BFFA379B1C0BAE9900CEFE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFA379A1C0BAE9900CEFE7B /* Assets.xcassets */; };
+		BFFA379E1C0BAE9900CEFE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFA379C1C0BAE9900CEFE7B /* LaunchScreen.storyboard */; };
+		BFFA37A91C0BAE9900CEFE7B /* SunnystagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA37A81C0BAE9900CEFE7B /* SunnystagramTests.swift */; };
+		BFFA37B41C0BAE9900CEFE7B /* SunnystagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA37B31C0BAE9900CEFE7B /* SunnystagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFFA37A51C0BAE9900CEFE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFA37881C0BAE9900CEFE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFFA378F1C0BAE9900CEFE7B;
+			remoteInfo = Sunnystagram;
+		};
+		BFFA37B01C0BAE9900CEFE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFA37881C0BAE9900CEFE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFFA378F1C0BAE9900CEFE7B;
+			remoteInfo = Sunnystagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFFA37901C0BAE9900CEFE7B /* Sunnystagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunnystagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFA37931C0BAE9900CEFE7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFFA37951C0BAE9900CEFE7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFFA37981C0BAE9900CEFE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFFA379A1C0BAE9900CEFE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFFA379D1C0BAE9900CEFE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFFA379F1C0BAE9900CEFE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFA37A41C0BAE9900CEFE7B /* SunnystagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnystagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFA37A81C0BAE9900CEFE7B /* SunnystagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnystagramTests.swift; sourceTree = "<group>"; };
+		BFFA37AA1C0BAE9900CEFE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFA37AF1C0BAE9900CEFE7B /* SunnystagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnystagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFA37B31C0BAE9900CEFE7B /* SunnystagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnystagramUITests.swift; sourceTree = "<group>"; };
+		BFFA37B51C0BAE9900CEFE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFA378D1C0BAE9900CEFE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA37A11C0BAE9900CEFE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA37AC1C0BAE9900CEFE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFA37871C0BAE9900CEFE7B = {
+			isa = PBXGroup;
+			children = (
+				BFFA37921C0BAE9900CEFE7B /* Sunnystagram */,
+				BFFA37A71C0BAE9900CEFE7B /* SunnystagramTests */,
+				BFFA37B21C0BAE9900CEFE7B /* SunnystagramUITests */,
+				BFFA37911C0BAE9900CEFE7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFA37911C0BAE9900CEFE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA37901C0BAE9900CEFE7B /* Sunnystagram.app */,
+				BFFA37A41C0BAE9900CEFE7B /* SunnystagramTests.xctest */,
+				BFFA37AF1C0BAE9900CEFE7B /* SunnystagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFA37921C0BAE9900CEFE7B /* Sunnystagram */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA37931C0BAE9900CEFE7B /* AppDelegate.swift */,
+				BFFA37951C0BAE9900CEFE7B /* ViewController.swift */,
+				BFFA37971C0BAE9900CEFE7B /* Main.storyboard */,
+				BFFA379A1C0BAE9900CEFE7B /* Assets.xcassets */,
+				BFFA379C1C0BAE9900CEFE7B /* LaunchScreen.storyboard */,
+				BFFA379F1C0BAE9900CEFE7B /* Info.plist */,
+			);
+			path = Sunnystagram;
+			sourceTree = "<group>";
+		};
+		BFFA37A71C0BAE9900CEFE7B /* SunnystagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA37A81C0BAE9900CEFE7B /* SunnystagramTests.swift */,
+				BFFA37AA1C0BAE9900CEFE7B /* Info.plist */,
+			);
+			path = SunnystagramTests;
+			sourceTree = "<group>";
+		};
+		BFFA37B21C0BAE9900CEFE7B /* SunnystagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA37B31C0BAE9900CEFE7B /* SunnystagramUITests.swift */,
+				BFFA37B51C0BAE9900CEFE7B /* Info.plist */,
+			);
+			path = SunnystagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFA378F1C0BAE9900CEFE7B /* Sunnystagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFA37B81C0BAE9900CEFE7B /* Build configuration list for PBXNativeTarget "Sunnystagram" */;
+			buildPhases = (
+				BFFA378C1C0BAE9900CEFE7B /* Sources */,
+				BFFA378D1C0BAE9900CEFE7B /* Frameworks */,
+				BFFA378E1C0BAE9900CEFE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunnystagram;
+			productName = Sunnystagram;
+			productReference = BFFA37901C0BAE9900CEFE7B /* Sunnystagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFFA37A31C0BAE9900CEFE7B /* SunnystagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFA37BB1C0BAE9900CEFE7B /* Build configuration list for PBXNativeTarget "SunnystagramTests" */;
+			buildPhases = (
+				BFFA37A01C0BAE9900CEFE7B /* Sources */,
+				BFFA37A11C0BAE9900CEFE7B /* Frameworks */,
+				BFFA37A21C0BAE9900CEFE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFA37A61C0BAE9900CEFE7B /* PBXTargetDependency */,
+			);
+			name = SunnystagramTests;
+			productName = SunnystagramTests;
+			productReference = BFFA37A41C0BAE9900CEFE7B /* SunnystagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFFA37AE1C0BAE9900CEFE7B /* SunnystagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFA37BE1C0BAE9900CEFE7B /* Build configuration list for PBXNativeTarget "SunnystagramUITests" */;
+			buildPhases = (
+				BFFA37AB1C0BAE9900CEFE7B /* Sources */,
+				BFFA37AC1C0BAE9900CEFE7B /* Frameworks */,
+				BFFA37AD1C0BAE9900CEFE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFA37B11C0BAE9900CEFE7B /* PBXTargetDependency */,
+			);
+			name = SunnystagramUITests;
+			productName = SunnystagramUITests;
+			productReference = BFFA37AF1C0BAE9900CEFE7B /* SunnystagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFA37881C0BAE9900CEFE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Abhijeet Chaudhary";
+				TargetAttributes = {
+					BFFA378F1C0BAE9900CEFE7B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 48Z3327K6M;
+					};
+					BFFA37A31C0BAE9900CEFE7B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 48Z3327K6M;
+						TestTargetID = BFFA378F1C0BAE9900CEFE7B;
+					};
+					BFFA37AE1C0BAE9900CEFE7B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 48Z3327K6M;
+						TestTargetID = BFFA378F1C0BAE9900CEFE7B;
+					};
+				};
+			};
+			buildConfigurationList = BFFA378B1C0BAE9900CEFE7B /* Build configuration list for PBXProject "Sunnystagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFFA37871C0BAE9900CEFE7B;
+			productRefGroup = BFFA37911C0BAE9900CEFE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFA378F1C0BAE9900CEFE7B /* Sunnystagram */,
+				BFFA37A31C0BAE9900CEFE7B /* SunnystagramTests */,
+				BFFA37AE1C0BAE9900CEFE7B /* SunnystagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFA378E1C0BAE9900CEFE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA379E1C0BAE9900CEFE7B /* LaunchScreen.storyboard in Resources */,
+				BFFA379B1C0BAE9900CEFE7B /* Assets.xcassets in Resources */,
+				BFFA37991C0BAE9900CEFE7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA37A21C0BAE9900CEFE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA37AD1C0BAE9900CEFE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFA378C1C0BAE9900CEFE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA37961C0BAE9900CEFE7B /* ViewController.swift in Sources */,
+				BFFA37941C0BAE9900CEFE7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA37A01C0BAE9900CEFE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA37A91C0BAE9900CEFE7B /* SunnystagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA37AB1C0BAE9900CEFE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA37B41C0BAE9900CEFE7B /* SunnystagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFFA37A61C0BAE9900CEFE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFFA378F1C0BAE9900CEFE7B /* Sunnystagram */;
+			targetProxy = BFFA37A51C0BAE9900CEFE7B /* PBXContainerItemProxy */;
+		};
+		BFFA37B11C0BAE9900CEFE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFFA378F1C0BAE9900CEFE7B /* Sunnystagram */;
+			targetProxy = BFFA37B01C0BAE9900CEFE7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFFA37971C0BAE9900CEFE7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFA37981C0BAE9900CEFE7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFFA379C1C0BAE9900CEFE7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFA379D1C0BAE9900CEFE7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFFA37B61C0BAE9900CEFE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFFA37B71C0BAE9900CEFE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFFA37B91C0BAE9900CEFE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sunnystagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abhijeetchz.Sunnystagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFFA37BA1C0BAE9900CEFE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sunnystagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abhijeetchz.Sunnystagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFFA37BC1C0BAE9900CEFE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunnystagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abhijeetchz.SunnystagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunnystagram.app/Sunnystagram";
+			};
+			name = Debug;
+		};
+		BFFA37BD1C0BAE9900CEFE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunnystagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abhijeetchz.SunnystagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunnystagram.app/Sunnystagram";
+			};
+			name = Release;
+		};
+		BFFA37BF1C0BAE9900CEFE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SunnystagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abhijeetchz.SunnystagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sunnystagram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFFA37C01C0BAE9900CEFE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SunnystagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abhijeetchz.SunnystagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sunnystagram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFA378B1C0BAE9900CEFE7B /* Build configuration list for PBXProject "Sunnystagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA37B61C0BAE9900CEFE7B /* Debug */,
+				BFFA37B71C0BAE9900CEFE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFA37B81C0BAE9900CEFE7B /* Build configuration list for PBXNativeTarget "Sunnystagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA37B91C0BAE9900CEFE7B /* Debug */,
+				BFFA37BA1C0BAE9900CEFE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFFA37BB1C0BAE9900CEFE7B /* Build configuration list for PBXNativeTarget "SunnystagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA37BC1C0BAE9900CEFE7B /* Debug */,
+				BFFA37BD1C0BAE9900CEFE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFFA37BE1C0BAE9900CEFE7B /* Build configuration list for PBXNativeTarget "SunnystagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA37BF1C0BAE9900CEFE7B /* Debug */,
+				BFFA37C01C0BAE9900CEFE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFFA37881C0BAE9900CEFE7B /* Project object */;
+}
