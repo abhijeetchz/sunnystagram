@@ -14,6 +14,9 @@
 		BFFA379E1C0BAE9900CEFE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFA379C1C0BAE9900CEFE7B /* LaunchScreen.storyboard */; };
 		BFFA37A91C0BAE9900CEFE7B /* SunnystagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA37A81C0BAE9900CEFE7B /* SunnystagramTests.swift */; };
 		BFFA37B41C0BAE9900CEFE7B /* SunnystagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA37B31C0BAE9900CEFE7B /* SunnystagramUITests.swift */; };
+		BFFA37C21C0BB00B00CEFE7B /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFA37C11C0BB00B00CEFE7B /* 001.png */; };
+		BFFA37C31C0BB00B00CEFE7B /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFA37C11C0BB00B00CEFE7B /* 001.png */; };
+		BFFA37C41C0BB00B00CEFE7B /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFA37C11C0BB00B00CEFE7B /* 001.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		BFFA37AF1C0BAE9900CEFE7B /* SunnystagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnystagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFA37B31C0BAE9900CEFE7B /* SunnystagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnystagramUITests.swift; sourceTree = "<group>"; };
 		BFFA37B51C0BAE9900CEFE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFA37C11C0BB00B00CEFE7B /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		BFFA37921C0BAE9900CEFE7B /* Sunnystagram */ = {
 			isa = PBXGroup;
 			children = (
+				BFFA37C11C0BB00B00CEFE7B /* 001.png */,
 				BFFA37931C0BAE9900CEFE7B /* AppDelegate.swift */,
 				BFFA37951C0BAE9900CEFE7B /* ViewController.swift */,
 				BFFA37971C0BAE9900CEFE7B /* Main.storyboard */,
@@ -235,6 +240,7 @@
 				BFFA379E1C0BAE9900CEFE7B /* LaunchScreen.storyboard in Resources */,
 				BFFA379B1C0BAE9900CEFE7B /* Assets.xcassets in Resources */,
 				BFFA37991C0BAE9900CEFE7B /* Main.storyboard in Resources */,
+				BFFA37C21C0BB00B00CEFE7B /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFA37C31C0BB00B00CEFE7B /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFA37C41C0BB00B00CEFE7B /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
